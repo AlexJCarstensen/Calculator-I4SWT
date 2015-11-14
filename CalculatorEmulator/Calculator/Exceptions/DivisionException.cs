@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace Calculator
 {
     [Serializable]
-    internal class DivisionException : Exception
+    public class DivisionException : Exception
     {
         public DivisionException()
         {
