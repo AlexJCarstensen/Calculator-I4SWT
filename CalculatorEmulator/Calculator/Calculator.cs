@@ -50,9 +50,10 @@ namespace Calculator
         /// <returns></returns>
         public double Power(double x, double exp)
         {
-            if (x >= 0 && exp >= 0)
-                return Math.Pow(x, exp);
-            throw new PowerException(x, exp);
+            if (x < 0 || exp < 0)
+                throw new PowerException(x, exp);
+            return Math.Pow(x, exp);
+            
         }
     }
 }

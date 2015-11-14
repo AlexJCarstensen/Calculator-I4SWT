@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace Calculator.Exceptions
 {
     [Serializable]
-    internal class PowerException : Exception
+    public class PowerException : Exception
     {
         private double exp;
         private double x;
