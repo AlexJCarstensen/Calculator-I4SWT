@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="Exceptions\DivisionException.cs" />
     <Compile Include="ICalculator.cs" />
     <Compile Include="Exceptions\PowerException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -55,5 +55,12 @@ namespace Calculator
             return Math.Pow(x, exp);
             
         }
+
+        public double Division(double x, double y)
+        {
+            if (x == 0 || y == 0)
+                throw new DivisionException();
+            return x / y;
+        }
     }
 }

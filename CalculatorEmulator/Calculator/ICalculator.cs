@@ -6,5 +6,6 @@
         double Subtract(double a, double b);
         double Multiply(double a, double b);
         double Power(double x, double exp);
+        double Division(double x, double y);
     }
 }
