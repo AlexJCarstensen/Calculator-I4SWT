@@ -57,6 +57,7 @@ namespace CalculatorUnitTest
             Assert.That(result, Is.EqualTo(-5));
         }
         #endregion
+
         #region Subtract
         [Test]
         public void Subtract_aIs2bIs2_Return0()
@@ -100,6 +101,7 @@ namespace CalculatorUnitTest
             Assert.That(result, Is.EqualTo(-1));
         }
         #endregion
+
         #region Multiply
         [Test]
         public void Multiply_aIs2bIs2_Return4()
@@ -143,6 +145,7 @@ namespace CalculatorUnitTest
             Assert.That(result, Is.EqualTo(6));
         }
         #endregion
+
         #region Power
         [Test]
         public void Power_aIs2bIs2_Return4()
@@ -170,6 +173,7 @@ namespace CalculatorUnitTest
             Assert.Throws<PowerException>(() => _uut.Power(-3, -2));
         }
         #endregion
+
         #region Division
         [Test]
         public void Division_aIs2bIs2_Return1()

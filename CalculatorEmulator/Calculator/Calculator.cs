@@ -56,6 +56,13 @@ namespace Calculator
             
         }
 
+        /// <summary>
+        /// Returns the division of two variables
+        /// If divied by zero cast exception
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public double Division(double x, double y)
         {
             if (x == 0 || y == 0)
